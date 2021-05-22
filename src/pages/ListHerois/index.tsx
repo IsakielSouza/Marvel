@@ -1,8 +1,3 @@
-import React from 'react';
+import ListHerois from "./ListHerois";
 
-
-export default function listHerois() {
-  return(
-    <h1>Lista de Herois</h1>
-  )
-}
+export default ListHerois;

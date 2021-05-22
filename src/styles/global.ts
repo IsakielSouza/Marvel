@@ -1,9 +1,17 @@
 import { createGlobalStyle } from 'styled-components';
-import { darken } from 'polished';
 
 export const GlobalStyle = createGlobalStyle`
 :root {
-  --background: #f0f2f5;
+  --header: #363F5F;
+  --blue: #5429CC;
+  
+  --blue_light: #6933FF;
+
+  --text-title: #363F5F;
+  --text-body: #969CB3;
+
+  --background: #f4f4f4;
+
 }
 
 * {
@@ -13,7 +21,7 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 body {
-  background: var(----background);
+  background: var(--background);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -26,19 +34,5 @@ html {
     font-size: 87.5%; /**14px */
   }
 }
-
-button {
-      background: #7159c1;
-      color: #fff;
-      border: 0;
-      border-radius: 4px;
-      padding: 12px 20px;
-      font-weight: bold;
-      text-transform: uppercase;
-      transition: background 0.2s;
-      &:hover {
-        background: ${darken(0.03, '#7159c1')};
-      }
-    }
 
 `;
