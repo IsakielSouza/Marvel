@@ -15,7 +15,7 @@ O Desafio: Marvel
 
 <p align="center">
   <img alt="desktopPrint" src=".github/desktop.png" width="100%">
-  <img alt="mobilePrint" src=".github/mobile.png" width="100%">
+  <img alt="mobilePrint" src=".github/mobile.png" width="300px">
 </p>
 
 ## ✨ Tecnologias
