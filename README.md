@@ -14,7 +14,7 @@ O Desafio: Marvel
 <br>
 
 <p align="center">
-  <img alt="desktopPrint" src=".github/dektop.png" width="100%">
+  <img alt="desktopPrint" src=".github/desktop.png" width="100%">
   <img alt="mobilePrint" src=".github/mobile.png" width="100%">
 </p>
 
@@ -31,7 +31,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Aplicativo para Listar Herois da Marvel.
 
-![App Screenshot](https://res.cloudinary.com/lukemorales/image/upload/v1563042321/readme_logos/rocketshoes_readme_swvhr9.png)
 <p align="center">
   <a href="https://marvel-fortbrasil.netlify.app/" target="_blank">
     <img alt="Demo on Netlify" src="https://res.cloudinary.com/lukemorales/image/upload/v1563043495/readme_logos/demo_on_netlify_bbuvjz.png">
@@ -39,10 +38,10 @@ Aplicativo para Listar Herois da Marvel.
 </p>
 
 
-## 🔖 API
+## 🔖 API 
 
 - 🔭 [API](https://api-marvel-fortbrasil.herokuapp.com/)
-- 🔭 [Repo](https://github.com/IsakielSouza/PlantManager)
+- 🔭 [Repo](https://github.com/IsakielSouza/Api-Marvel)
 
 ## 🚀 Como executar
 
@@ -52,10 +51,10 @@ Aplicativo para Listar Herois da Marvel.
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/lukemorales/react-rocketshoes
+$ git clone https://github.com/isakielsouza/marvel.git
 
 # Go into the repository
-$ cd react-rocketshoes
+$ cd marvel
 
 # Install dependencies
 $ yarn install
@@ -65,6 +64,3 @@ $ yarn start
 ```
 
 ## 📄 Licença
-
-## :memo: License
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
