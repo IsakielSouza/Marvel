@@ -31,8 +31,6 @@ console.log(heroes)
 
   return(
     <ListHeroes>
-      
-      <ul>
         {heroes.map(hero => (
           <li>
             <figure>
@@ -46,10 +44,6 @@ console.log(heroes)
             <a href="/">Detalhes</a>
         </li>
         ))}
-        
-      </ul>
-
-
     </ListHeroes>
   )
 }

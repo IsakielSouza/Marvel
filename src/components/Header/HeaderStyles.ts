@@ -8,8 +8,7 @@ export const Container =styled.header`
     max-width: 1120px;
     margin: 0 auto;
 
-    box-shadow: 0 0 2px;
-    padding: 2 1rem 8rem;
+    padding: 1rem 0rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;

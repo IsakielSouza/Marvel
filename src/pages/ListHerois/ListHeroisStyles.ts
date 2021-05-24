@@ -14,18 +14,18 @@ export const ListHeroes = styled.ul`
   li {
     display: flex;
     flex-direction: column;
-    background: #ffffff;
-    border-radius: 4px;
-    padding: 20px;
-    &:hover figure img {
-      opacity: 10.0;
+    background: #ECEAF5;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    
     }
     figure {
       display: flex;
       justify-content: center;
       position: relative;
       width: 100%;
-      max-height: 250px;
+      max-height: 10rem;
       padding-top: 91%;
       text-align: center;
       @media (max-width: 490px) {
@@ -37,15 +37,10 @@ export const ListHeroes = styled.ul`
         left: 0;
         bottom: 0;
         right: 0;
-        max-height: 100%;
+        max-height: 90%;
         margin: auto;
         transition: opacity 100ms ease-in-out;
       }
-    }
-
-    span {
-      color: var(--text-title);
-      font-size: 12;
     }
   }
 `;
